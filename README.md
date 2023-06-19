@@ -1,5 +1,10 @@
 # 3D-BatallaNaval
 
+## Delegate
+representa una referencia a un método. Proporciona una forma de encapsular y pasar métodos como parámetros, almacenarlos en variables y llamarlos de manera flexible.
+delegate tipoRetorno NombreDelegado(tipoParametro1 parametro1, tipoParametro2 parametro2, ...);
+
+
 ## Movimiento del barco
 El barco del jugador se moverá de forma cinemática, sin emplear para ello el Rigidbody del
 mismo. Los movimientos consistirán en el desplazamiento hacia adelante y el giro. Con el objetivo
