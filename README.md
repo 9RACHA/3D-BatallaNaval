@@ -6,10 +6,15 @@ delegate tipoRetorno NombreDelegado(tipoParametro1 parametro1, tipoParametro2 pa
 
 ## On
 indicar eventos o acciones que se producen en un objeto o componente. Usualmente, se utiliza para nombrar eventos públicos o métodos que se ejecutan en respuesta a ciertas condiciones o acciones.
+
 OnEnable: Se ejecuta cuando el objeto o componente se habilita.
+
 OnDisable: Se ejecuta cuando el objeto o componente se deshabilita.
+
 OnTriggerEnter: Se ejecuta cuando otro objeto entra en colisión con un colisionador que tiene el evento adjunto.
+
 OnMouseDown: Se ejecuta cuando se hace clic con el botón del mouse en el objeto.
+
 OnValueChanged: Se ejecuta cuando el valor de una propiedad o variable cambia
 
 
